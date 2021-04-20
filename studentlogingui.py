@@ -32,6 +32,8 @@ class Ui_MainWindow(object):
         self.secondary.setObjectName("secondary")
         self.secondary.setColumnCount(5)
         self.secondary.setRowCount(0)
+        self.primary.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
+        self.secondary.setEditTriggers(QtWidgets.QAbstractItemView.NoEditTriggers)
         item = QtWidgets.QTableWidgetItem()
         self.secondary.setHorizontalHeaderItem(0, item)
         item = QtWidgets.QTableWidgetItem()
