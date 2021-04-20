@@ -129,7 +129,7 @@ By default there are 4 subjects and 4 faculties, one assiociated with each subje
 Faculties can login into their portals and take attendance of all students assigned to their class.
 
 * Student's Interface
-Students can login into their portals and see their overall attendance in the Subjects they have opted for. They can also see attendace date-wise.
+Students can login into their portals and see their overall attendance in the Subjects they have opted for. They can also see attendace date-wise status.
 
 All these data is stored into database.db file which is created by SQLite in the folder where program is stored.
 <!-- CONTRIBUTING -->
