@@ -27,7 +27,7 @@
     <img src="images/logo.png" alt="Logo" width="160" height="80">
   </a>
 
-  <h3 align="center">AMS</h3>
+  <h3 align="center">AMS with GUI</h3>
 
   <p align="center">
     <a href="https://github.com/whohet/AMS/"><strong>Explore the docs »</strong></a>
@@ -72,7 +72,6 @@
 
 
 AMS stands for Attendance Management System. It is built using Python, QT5 and SQLite.
-Python and QT5 are used for GUI and backend logic, whereas SQLite is used for database.
 AMS allows to manage attendance of students easily of a particular department.
 
 ### Some ScreenShots
