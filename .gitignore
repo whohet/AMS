@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 attendance.db
+.idea
 
 # C extensions
 *.so
