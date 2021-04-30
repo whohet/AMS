@@ -59,11 +59,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             rows = list(
                 conn.execute("SELECT * FROM ATTENDANCE INNER JOIN COURSE ON "
                              "ATTENDANCE.course_id=COURSE.course_id WHERE roll_no=(?)", (roll_no,)))
+
             row1.clear()
             for row in rows:
                 #print("{}{}{}{}{}".format(row[3].ljust(19), row[6].ljust(20), row[4].ljust(17), row[2].ljust(14), row[1]))
                 row1.append([row[3], row[6],row[4], row[1], row[2]])
-
+            row1.sort()
 
             for row1x in row1:
                 tableRowNumber = self.secondary.rowCount()
